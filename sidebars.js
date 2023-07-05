@@ -13,7 +13,6 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-	// By default, Docusaurus generates a sidebar from the docs folder structure
 	docsSidebar: [
 		{
 			type: "category",
@@ -27,7 +26,15 @@ const sidebars = {
 						"services/zero-knowledge-database", // must match id in md file and file folder name
 						"services/registry",
 						"services/lambdas",
-						"services/containers",
+						{
+							type: "category",
+							label: "Containers",
+							items: [
+								"services/containers/introduction",
+								"services/containers/getting-started",
+								"services/containers/maintaining",
+							],
+						},
 					],
 				},
 			],

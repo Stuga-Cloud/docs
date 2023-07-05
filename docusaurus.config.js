@@ -106,7 +106,7 @@ const config = {
 							},
 							{
 								label: "Containers",
-								to: "/docs/docs/services/containers",
+								to: "/docs/docs/services/containers/introduction",
 							},
 						],
 					},
