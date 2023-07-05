@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstuga_cloud_docs=self.webpackChunkstuga_cloud_docs||[]).push([[773],{9724:s=>{s.exports=JSON.parse('{"label":"facebook","permalink":"/docs/blog/tags/facebook","allTagsPath":"/docs/blog/tags","count":1}')}}]);
