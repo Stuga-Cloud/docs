@@ -75,7 +75,7 @@ const config = {
 						sidebarId: "docsSidebar",
 						position: "left",
 						label: "Docs",
-						to: "/docs",
+						to: "/",
 					},
 					// { to: "/docs", label: "Docs", position: "left" },
 					// { to: "/blog", label: "Blog", position: "left" },
@@ -94,19 +94,19 @@ const config = {
 						items: [
 							{
 								label: "Zero Knowledge Database",
-								to: "/docs/services/zero-knowledge-database",
+								to: "/docs/docs/services/zero-knowledge-database",
 							},
 							{
 								label: "Registry",
-								to: "/docs/services/registry",
+								to: "/docs/docs/services/registry",
 							},
 							{
 								label: "Lamdbas",
-								to: "/docs/services/lambdas",
+								to: "/docs/docs/services/lambdas",
 							},
 							{
 								label: "Containers",
-								to: "/docs/services/containers",
+								to: "/docs/docs/services/containers",
 							},
 						],
 					},
