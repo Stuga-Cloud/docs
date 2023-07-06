@@ -12,4 +12,4 @@ Nous avons choisis de respecter des synthaxe et fonctionnement proche de ceux de
 
 Nos fonctions run dans un environnement de jail graçe à Firecracker et on vous permet ainsi la meilleur isolation possible de nos autres clients.
 
-Nos fonctions sotn aussi FACILEMENT débugable finit les 12 outils à installé pour pouvoir debug vos functions
+Nos fonctions sont aussi FACILEMENT débugable finit les 12 outils à installé pour pouvoir debug vos functions au plus proche de l'envrionnement de production.
