@@ -25,7 +25,22 @@ const sidebars = {
 					items: [
 						"services/zero-knowledge-database", // must match id in md file and file folder name
 						"services/registry",
-						"services/lambdas",
+						{
+							type: "category",
+							label: "Lambdas",
+							items: [
+								"services/lambdas/introduction",
+								{
+									type: "category",
+									label: "Getting Started",
+									items: [
+										"services/lambdas/getting-started/build-a-function",
+										"services/lambdas/getting-started/run-your-function",
+										"services/lambdas/getting-started/debug-your-function"
+									],
+								},
+							],
+						},
 						{
 							type: "category",
 							label: "Containers",
