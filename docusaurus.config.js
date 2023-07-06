@@ -103,7 +103,7 @@ const config = {
 							},
 							{
 								label: "Lamdbas",
-								to: "/docs/docs/services/lambdas",
+								to: "/docs/docs/services/lambdas/introduction",
 							},
 							{
 								label: "Containers",
@@ -147,7 +147,7 @@ const config = {
 			prism: {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,
-        additionalLanguages: ['rust']
+				additionalLanguages: ["rust"],
 			},
 		}),
 };
