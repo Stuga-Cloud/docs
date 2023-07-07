@@ -7,16 +7,16 @@ title: Debug your function
 ## Prérequis
 
 1. Docker installé sur votre machine
-2. Preferably a tool like Postman to test your functions (not required)
+2. Un outil pour faire des requêtes http (Postman, curl, etc...) (pas obligatoire)
 
 ## Pull your function image
-- for the example we are going to take an example image
+- Pour l'example on va prendre une image d'example
 
 ```bash
 docker pull stugacloud/faas-example-network:1.0.0
 ```
 
-- this image as the code show take 1 parameter in json **"time"**, you can pass time from 1 to 10 and the function will do a request to httpbin.org with the delay you passed in parameter. The max is 10 seconds.
+- Cette image, comme le code le montre, prend 1 paramètre en JSON **"time".** Vous pouvez passer une valeur de temps de 1 à 10, et la fonction effectuera une requête à httpbin.org avec le délai que vous avez spécifié en paramètre. Le maximum est de 10 secondes.
 ```js
 import axios from "axios";
 

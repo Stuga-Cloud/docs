@@ -5,7 +5,7 @@ title: Introduction
 ---
 
 ## Function as a service
-Function as a service (FaaS) is a category of cloud computing services that provides a platform allowing customers to develop, run, and manage application functionalities without the complexity of building and maintaining the infrastructure typically associated with developing and launching an app.
+La fonction en tant que service (FaaS) est une catégorie de services de cloud computing qui offre une plateforme permettant aux clients de développer, exécuter et gérer les fonctionnalités d'une application sans la complexité de construire et de maintenir l'infrastructure généralement associée au développement et au lancement d'une application.
 
 ## Principle
 Nous avons choisis de respecter des synthaxe et fonctionnement proche de ceux de aws ou encore de google cloud platform. Cela permettra aux utilisateurs de Stuga Cloud de pouvoir facilement migrer leurs applications vers notre plateforme.

@@ -122,7 +122,7 @@ COPY index.js /root/index.js
 
 
 ## Build your function to a container image
-- Notice that you can use our lambda with arm and amd64 architecture in development but in **production you have to build to amd64 architecture**
+- Remarquez que vous pouvez utiliser notre lambda avec les architectures ARM et amd64 en développement, mais **en production, vous devez construire avec l'architecture amd64.**
 - placez vous à la racine de votre fonction
 - build your image
     - simple build
@@ -133,7 +133,7 @@ COPY index.js /root/index.js
     ```bash
     docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 -t my-first-lambda .
     ```
-- push your image to a docker hub registry or stugaCloud registry
+- poussez votre image vers un docker hub registry ou stugaCloud registry
 ```bash
 docker tag my-first-lambda:latest registry-machavoine.fr/{namespaceCreated}/my-first-lambda:1.0.0
 OR
